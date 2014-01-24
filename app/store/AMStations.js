@@ -9,5 +9,10 @@ Ext.define('Panda.store.AMStations', {
       console.log(station.get('name') + " " + station.isAM());
       return station.isAM();
     }
-  ]
+  ],
+
+  constructor: function (config) {
+    console.log("Constructor on AMStations");
+    this.callParent(arguments);
+  }
 });

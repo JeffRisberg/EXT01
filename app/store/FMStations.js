@@ -9,5 +9,10 @@ Ext.define('Panda.store.FMStations', {
       console.log(station.get('name') + " " + station.isFM());
       return station.isFM();
     }
-  ]
+  ],
+
+  constructor: function (config) {
+    console.log("Constructor on FMStations");
+    this.callParent(arguments);
+  }
 });

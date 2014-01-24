@@ -16,7 +16,7 @@ Ext.define('Panda.store.SearchResults', {
   },
 
   constructor: function (config) {
-    console.log("CONS on SearchResults");
+    console.log("Constructor on SearchResults");
     this.callParent(arguments);
   }
 
