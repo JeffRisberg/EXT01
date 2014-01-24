@@ -11,5 +11,5 @@ Ext.define('Panda.Application', {
 
   models: ['Station', 'Song'],
 
-  stores: ['Stations', 'RecentSongs', 'SearchResults', 'AMStations']
+  stores: ['Stations', 'RecentSongs', 'SearchResults', 'AMStations', 'FMStations']
 });

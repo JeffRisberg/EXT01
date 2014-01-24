@@ -7,7 +7,9 @@ Ext.define('Panda.view.Viewport', {
     'Panda.view.SongControls',
     'Panda.view.StationsList',
     'Panda.view.RecentlyPlayedScroller',
-    'Panda.view.SongInfo'
+    'Panda.view.SongInfo',
+    'Panda.view.AMComboBox',
+    'Panda.view.FMComboBox'
   ],
 
   initComponent: function () {
@@ -38,6 +40,10 @@ Ext.define('Panda.view.Viewport', {
             },
             {
               xtype: 'amComboBox',
+              flex: 2
+            },
+            {
+              xtype: 'fmComboBox',
               flex: 2
             }
           ]

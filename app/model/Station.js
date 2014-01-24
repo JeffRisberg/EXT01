@@ -46,6 +46,6 @@ Ext.define('Panda.model.Station', {
   },
 
   isFM: function () {
-    return this.get('type') !== 'FM';
+    return this.get('type') == 'FM';
   }
 });

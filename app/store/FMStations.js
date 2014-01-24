@@ -1,4 +1,4 @@
-Ext.define('Panda.store.AMStations', {
+Ext.define('Panda.store.FMStations', {
   extend: 'Panda.store.ShadowStore',
   requires: 'Panda.model.Station',
   model: 'Panda.model.Station',
@@ -6,8 +6,8 @@ Ext.define('Panda.store.AMStations', {
 
   filters: [
     function (station) {
-      console.log(station.get('name') + " " + station.isAM());
-      return station.isAM();
+      console.log(station.get('name') + " " + station.isFM());
+      return station.isFM();
     }
   ]
 });
