@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "results": [
+    {
+      "id": 1,
+      "name": "Led Zeppelin",
+      "type": "AM"
+    },
+    {
+      "id": 2,
+      "name": "Classic Rock",
+      "type": "FM"
+    },
+    {
+      "id": 3,
+      "name": "Progressive Rock",
+      "type": "FM"
+    },
+    {
+      "id": 4,
+      "name": "Punk and Alternative",
+      "type": "AM"
+    },
+    {
+      "id": 5,
+      "name": "Folk Rock",
+      "type": "AM"
+    },
+    {
+      "id": 6,
+      "name": "Trance Out!",
+      "type": "FM"
+    },
+    {
+      "id": 7,
+      "name": "Favorite 60's",
+      "type": "AM"
+    }
+  ]
+}

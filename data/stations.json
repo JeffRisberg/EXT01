@@ -1,0 +1,50 @@
+{
+  "success": true,
+  "results": [
+    {
+      "id": 1,
+      "played_date": 4,
+      "name": "Led Zeppelin",
+      "visibility": "Visible",
+      "scope": "Internal",
+      "category": "c1",
+      "type": "FM"
+    },
+    {
+      "id": 2,
+      "played_date": 3,
+      "name": "Classic Rock",
+      "visibility": "Visible",
+      "scope": "Internal",
+      "category": "c1",
+      "type": "FM"
+    },
+    {
+      "id": 3,
+      "played_date": 1,
+      "name": "Progressive Rock",
+      "visibility": "Visible",
+      "scope": "Internal",
+      "category": "c1",
+      "type": "FM"
+    },
+    {
+      "id": 4,
+      "played_date": 2,
+      "name": "Punk and Alternative",
+      "visibility": "Visible",
+      "scope": "Internal",
+      "category": "c1",
+      "type": "AM"
+    },
+    {
+      "id": 5,
+      "played_date": 2,
+      "name": "News",
+      "visibility": "Visible",
+      "scope": "External",
+      "category": "c2",
+      "type": "AM"
+    }
+  ]
+}
